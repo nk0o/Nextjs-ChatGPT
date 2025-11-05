@@ -34,3 +34,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+package.json script
+"generate": "drizzle-kit generate" //현재 스키마를 기반으로 sql 마이그레이션 파일 생성
+"migrate": "drizzle-kit migrate" //생성된 sql 마이그레이션 실제 db에 적용 

@@ -40,3 +40,9 @@ package.json script
 "migrate": "drizzle-kit migrate" //생성된 sql 마이그레이션 실제 db에 적용 
 
 components.json
+shadcn-ui 컴포넌트 콜렉션 추가시 설정페이지
+
+Zod 라이브러리
+타입스크립트 지원하는 스키마 검증 라이브러리
+유효성 검증 로직에 많이 사용됨
+루트 폴더로 schemas에서 기능별로 검증 모아놓음

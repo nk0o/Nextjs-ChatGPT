@@ -38,3 +38,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 package.json script
 "generate": "drizzle-kit generate" //현재 스키마를 기반으로 sql 마이그레이션 파일 생성
 "migrate": "drizzle-kit migrate" //생성된 sql 마이그레이션 실제 db에 적용 
+
+components.json
